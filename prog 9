@@ -28,7 +28,6 @@ def graphPlot(X,ypred):
  plt.xlabel('Total bill')
  plt.ylabel('Tip')
  plt.show();
-# load data points
 data = pd.read_csv('/Users/Chachu/Documents/Python Scripts/data10_tips.csv')
 bill = np.array(data.total_bill) # We use only Bill amount and Tips data
 tip = np.array(data.tip)
